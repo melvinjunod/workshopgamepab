@@ -1,0 +1,547 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672221755863343, "dur":2655, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221755866015, "dur":114, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672221755866162, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672221755866208, "dur":1520, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672221755867887, "dur":1510, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221755869397, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758125730, "dur":505, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126235, "dur":295, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126530, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126536, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126638, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126646, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126662, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126664, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126674, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126676, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126687, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126689, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126699, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126701, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126711, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126713, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126723, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126725, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126735, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126738, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126747, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126749, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126761, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126763, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126778, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126803, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758126891, "dur":12923, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672221755868153, "dur":1278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221755869443, "dur":12238, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221755881709, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672221755881722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221755884749, "dur":901, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672221755885657, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672221755885800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221755886508, "dur":45503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672221755932018, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672221755932359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221755932549, "dur":704863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672221756637501, "dur":193109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221756830619, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221756830634, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221756833588, "dur":620454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221757454052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221757454067, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221757456448, "dur":334729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221757791187, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672221757791200, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672221757796062, "dur":329658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221755868288, "dur":1192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221755869481, "dur":12589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221755882071, "dur":38344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672221755920427, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221755920446, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672221755927500, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1672221755927725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221755929500, "dur":8912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1672221755938578, "dur":195364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756133952, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756134178, "dur":13112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756147371, "dur":47387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756194767, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756194781, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756198021, "dur":65440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756263479, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756263500, "dur":4071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756267736, "dur":48187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756315935, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756315950, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756321336, "dur":47142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756368489, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756368504, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756371673, "dur":65619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756437302, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756437316, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756442229, "dur":113101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756555343, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756555359, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756557729, "dur":100994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756658734, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756658749, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756661690, "dur":46121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756707821, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756707836, "dur":7157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756715078, "dur":128627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756843715, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756843792, "dur":9430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756853298, "dur":57925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756911235, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221756911250, "dur":10920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221756922261, "dur":90328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757012599, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757012613, "dur":8690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757021381, "dur":2041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757023431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757023525, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757025803, "dur":8648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757034462, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757034537, "dur":14214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757049398, "dur":159344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757208753, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757208766, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757213856, "dur":199258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757413123, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757413198, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757416005, "dur":442013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757858027, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672221757858081, "dur":4415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672221757862551, "dur":263261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221755868452, "dur":1071, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221755869524, "dur":13118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221755882644, "dur":45853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672221755931009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221755931027, "dur":5428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672221755936584, "dur":177393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756113988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756119005, "dur":7582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756126682, "dur":125794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756252498, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756252523, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756255819, "dur":51372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756307201, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756307216, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756309428, "dur":83731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756393169, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756393183, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756395678, "dur":219763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756615452, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756615468, "dur":6676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756622215, "dur":40741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756662967, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756662986, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756666167, "dur":137071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756803249, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221756803263, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221756805847, "dur":271872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757077729, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757077745, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757082220, "dur":99674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757181904, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757181920, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757184658, "dur":324293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757508961, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757508977, "dur":5977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757515028, "dur":114111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757629149, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757629164, "dur":7380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757636626, "dur":41960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757678597, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757678613, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672221757680677, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1672221757680761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757680843, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1672221757683328, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672221757683419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757683429, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672221757686026, "dur":24209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672221757710293, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672221757710307, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672221757712213, "dur":413498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221755868245, "dur":1213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221755869459, "dur":12680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221755882140, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672221755882420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221755913068, "dur":773686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672221756686838, "dur":48732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756735580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221756735595, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756738023, "dur":106846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756844879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221756844893, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756847150, "dur":65890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756913050, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221756913064, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756916049, "dur":2771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756918830, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221756918845, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756922375, "dur":4774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756927159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221756927173, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221756930342, "dur":364512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221757294863, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221757294878, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221757298594, "dur":259135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221757557738, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221757557752, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221757561647, "dur":557526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221758119180, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672221758119192, "dur":6375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672221758125624, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1672221758125628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221755868421, "dur":1079, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221755869501, "dur":12206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221755881709, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1672221755882048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221755886591, "dur":48014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1672221755934715, "dur":946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1672221755935671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221755935684, "dur":184406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1672221756120194, "dur":55210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756175416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756175805, "dur":15133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756191025, "dur":272290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756463363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756463390, "dur":5011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756468630, "dur":42771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756511414, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756511429, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756517233, "dur":40674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756557915, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756558010, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756563765, "dur":99192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756662968, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756662985, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756667596, "dur":61750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756729365, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221756729434, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221756731974, "dur":339195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757071193, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221757071374, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757075479, "dur":514608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757590098, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221757590112, "dur":21145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757611384, "dur":359899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757971290, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672221757971301, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672221757973311, "dur":152515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221755868555, "dur":991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221755869547, "dur":12156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221755881711, "dur":122742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1672221756004474, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756007933, "dur":107170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1672221756115180, "dur":40474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756155667, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756156173, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756158191, "dur":99320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756257521, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756257550, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756261542, "dur":134734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756396287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756396300, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756401328, "dur":73553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756474891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756474905, "dur":5720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756480709, "dur":45110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756525828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756525841, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756528761, "dur":69644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756598416, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756598430, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756600897, "dur":50533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756651439, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756651453, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756654051, "dur":54578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756708638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756708651, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756711112, "dur":61888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756773009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221756773023, "dur":3863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221756777049, "dur":477216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757254275, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221757254289, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757256992, "dur":210571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757467574, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221757467589, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757470402, "dur":283648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757754062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672221757754076, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672221757756570, "dur":369138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221755868684, "dur":890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221755869575, "dur":12274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221755881851, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1672221755882118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221755886378, "dur":42908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1672221755929416, "dur":41787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672221755971213, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221755971228, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672221755974717, "dur":138456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1672221756113181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756119553, "dur":47037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1672221756166669, "dur":92478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756259157, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756259172, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756262637, "dur":143076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756405725, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756405752, "dur":10301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756416134, "dur":45034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756461179, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756461192, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756463366, "dur":62264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756525641, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756525656, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756528929, "dur":57400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756586338, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756586352, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756588707, "dur":68427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756657146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756657160, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756659893, "dur":44347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756704249, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221756704263, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221756706924, "dur":304624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757011557, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221757011572, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757016471, "dur":143833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757160311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221757160324, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757162407, "dur":133461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757295878, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221757295891, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757297796, "dur":67139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757364944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221757364957, "dur":13041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757378087, "dur":462112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757840207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672221757840219, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672221757845648, "dur":280210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221755868786, "dur":814, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221755869600, "dur":14243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221755883846, "dur":10597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672221755894454, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221755895346, "dur":873943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672221756769390, "dur":85210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221756854609, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221756854623, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221756856801, "dur":216964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757073776, "dur":773, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221757074571, "dur":17345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757092012, "dur":250089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757342110, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221757342124, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757345071, "dur":72537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757417618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221757417677, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757419738, "dur":83411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757503159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221757503173, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757507712, "dur":268996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757776719, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672221757776733, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672221757780134, "dur":345709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221755868912, "dur":710, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221755869622, "dur":14090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221755883722, "dur":54511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1672221755938259, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221755938288, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1672221755942063, "dur":175901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1672221756117973, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756117984, "dur":5351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1672221756123600, "dur":92988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756216602, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756216619, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756219329, "dur":63241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756282583, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756282602, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756285269, "dur":84375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756369654, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756369669, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756371884, "dur":78770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756450666, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756450680, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756453142, "dur":88269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756541457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756541472, "dur":4674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756546233, "dur":36775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756583019, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756583034, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756585671, "dur":91025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756676707, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756676722, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756679791, "dur":74443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756754245, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221756754259, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221756757089, "dur":351962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757109062, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221757109076, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757111875, "dur":46118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757158003, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221757158018, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757160041, "dur":644587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757804636, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672221757804649, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672221757810261, "dur":315534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221755869058, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221755869633, "dur":12123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221755881758, "dur":47339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1672221755930526, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221755930548, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1672221755935295, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1672221755935594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221755935606, "dur":5536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1672221755941253, "dur":536769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756478031, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756478042, "dur":67313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756545452, "dur":63727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756609190, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756609205, "dur":9690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756618977, "dur":48321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756667309, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756667337, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756669437, "dur":61987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756731434, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756731449, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756734390, "dur":71889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756806288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756806299, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756808716, "dur":163524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756972250, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221756972264, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221756975826, "dur":83348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757059184, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757059198, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757061619, "dur":107430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757169058, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757169072, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757170971, "dur":453232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757624279, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757624294, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757626713, "dur":11062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757637786, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757637801, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757642419, "dur":33157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757675610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757675624, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672221757677569, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1672221757677808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757678664, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1672221757680681, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757680760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757680770, "dur":4130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757684982, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1672221757685194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757685207, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1672221757686995, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757687058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757687069, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757690331, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1672221757690494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757690505, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1672221757692506, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757692576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757692587, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1672221757694573, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1672221757694640, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757694664, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1672221757696556, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1672221757696624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757696634, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1672221757698782, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1672221757698851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757698861, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1672221757700685, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1672221757700951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672221757700961, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1672221757703966, "dur":421750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221755869177, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221755869641, "dur":13004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221755882651, "dur":11839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672221755894501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221755894762, "dur":33056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672221755927917, "dur":185177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1672221756113100, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756113112, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1672221756115155, "dur":138692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756253862, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756253880, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756256889, "dur":53524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756310424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756310471, "dur":6638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756317187, "dur":327951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756645148, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756645162, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756648257, "dur":57901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756706168, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756706183, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756709067, "dur":59404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756768481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756768495, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756770996, "dur":50133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756821139, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221756821155, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221756823835, "dur":200998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757024863, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221757024877, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757029831, "dur":103026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757132868, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221757132979, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757135330, "dur":228711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757364051, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221757364093, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757366496, "dur":434156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757800662, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672221757800675, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672221757804173, "dur":321598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221755869299, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221755869667, "dur":12953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221755882630, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1672221755882954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221755887070, "dur":40718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1672221755928015, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1672221755928258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221755929074, "dur":42164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1672221755971340, "dur":141667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas.exe" }}
+,{ "pid":12345, "tid":12, "ts":1672221756113021, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756113033, "dur":11479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas.exe" }}
+,{ "pid":12345, "tid":12, "ts":1672221756124598, "dur":95296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756219903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756219917, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756222594, "dur":86980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756309582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756309594, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756312596, "dur":263258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756575862, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756575877, "dur":4984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756581318, "dur":48776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756630105, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756630282, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756632896, "dur":79099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756712004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756712017, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756714710, "dur":55656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756770376, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756770391, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756772437, "dur":204764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756977212, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221756977226, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221756979364, "dur":44057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757023430, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221757023501, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757025723, "dur":138118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757163853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221757163866, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757166114, "dur":345355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757511480, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221757511494, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757514026, "dur":285358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Built/Workshop game tugas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757799395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672221757799411, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Built/Workshop game tugas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672221757803605, "dur":322135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672221758142905, "dur":4444, "ph":"X", "name": "ProfilerWriteOutput" }
+,
